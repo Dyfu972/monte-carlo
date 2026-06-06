@@ -1,0 +1,13 @@
+# Dépendances Node
+_build/node_modules/
+
+# Artefact intermédiaire (généré par esbuild, non nécessaire au repo)
+_build/bundle.js
+
+# Fichiers OS
+.DS_Store
+Thumbs.db
+
+# Variables d'environnement
+.env
+*.env.local
