@@ -16,6 +16,7 @@ parent = os.path.dirname(os.getcwd())
 targets = [
     os.path.join(parent, "Monte Carlo Ruin.html"),  # version offline
     os.path.join(parent, "_publish", "index.html"),  # version deployee (GitHub Pages)
+    os.path.join(parent, "index.html"),              # racine repo → GitHub Pages sert directement
 ]
 for out in targets:
     os.makedirs(os.path.dirname(out), exist_ok=True)
